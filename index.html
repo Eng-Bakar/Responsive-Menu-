@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Responsive Menu </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <div class="bg-orange-500 w-full  sm:flex justify-between px-[30px] py-[20px]">
+    <h1 class="text-[30px] ml-[-10px] font-bold"> Tech <span class="text-white">Bookie</span></h1>
+    <ul id="links" class=" hidden sm:flex gap-[10px] pt-5 sm:pt-0 sm:gap-[30px] sm:flex-row flex-col text-[20px] sm:text-[25px]   font-semibold text-white mt-[4px]">
+        <li class="hover:underline"> Home </li>
+        <li class="hover:underline"> Pricing </li>
+        <li class="hover:underline"> About Us </li>
+    </ul>
+
+    <i id="menuButton" class="fa-solid fa-bars absolute right-6 top-4 text-[35px] sm:hidden text-white mt-[10px] "></i>
+    <i id="closeBtn"  class="fa-solid fa-x hidden absolute right-6 top-4 text-[35px] sm:hidden text-white mt-[10px] "></i>
+    <div id="Buttons" class="sm:flex hidden sm:flex-row flex-col ">
+        <button class="text-white text-[30px] sm:text-[25px] font-semibold"> Login </button>
+        <br>
+        <button class="text-[25px] hover:border-2  text-orange-500 w-full font-semibold rounded-[8px] sm:ml-[10px] sm:w-[150px] h-[50px] bg-white"> Register </button>
+    </div>
+  </div>
+  <script src="style.js"></script>
+</body>
+</html>
